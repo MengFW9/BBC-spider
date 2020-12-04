@@ -1,0 +1,1974 @@
+Scrapy 2.4.0 started (bot: news_gather)
+Versions: lxml 4.6.2.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 20.3.0, Python 3.7.9 (default, Aug 31 2020, 17:10:11) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 20.0.0 (OpenSSL 1.1.1h  22 Sep 2020), cryptography 3.2.1, Platform Windows-10-10.0.18362-SP0
+Overridden settings:
+{'BOT_NAME': 'news_gather',
+ 'DOWNLOAD_DELAY': 0.5,
+ 'NEWSPIDER_MODULE': 'news_gather.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['news_gather.spiders']}
+Telnet Password: c8a3caca6ebd64b2
+Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+Enabled item pipelines:
+['news_gather.pipelines.BBCnews_pipeline']
+Spider opened
+Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Telnet console listening on 127.0.0.1:6023
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/world-asia-55148231
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/world-asia-china-51176409
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/sport/formula1/47499757
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/world-asia-china-55154919
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/world-asia-china-55140026
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/world-asia-india-55156219
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/business-55155741
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/business-55140846
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/world-australia-55155160
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/world-asia-china-55154918
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/world-us-canada-55019408
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/world-asia-india-55049627
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/world-asia-55136494
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/world-us-canada-55152462
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/world-australia-55139933
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/world-asia-china-55140848
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/science-environment-55148998
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/world-asia-55147970
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/news/uk-england-oxfordshire-55145546
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/1 and news url ishttps://bbc.com/sport/live/cricket/55006039
+Crawled 3 pages (at 3 pages/min), scraped 0 items (at 0 items/min)
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/news/world-51235105
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/news/world-asia-china-55098392
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/news/business-55142938
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/news/world-asia-india-43069122
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/news/business-55141157
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/news/world-asia-55140857
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/news/world-asia-india-55099112
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/news/world-asia-55140847
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/news/world-australia-55139976
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/news/business-55132425
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/news/world-asia-55128827
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/news/entertainment-arts-55100084
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/news/entertainment-arts-55137074
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/sport/boxing/55133403
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/news/business-55139079
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/news/world-australia-55138479
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/news/world-55135616
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/2 and news url ishttps://bbc.com/news/world-asia-55127590
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/world-asia-55129805
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/world-asia-55132839
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/world-asia-55126319
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/world-australia-55126569
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/uk-england-london-55129050
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/world-asia-india-55041406
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/world-asia-55126318
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/world-asia-55126199
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/world-asia-55126198
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/uk-england-54978415
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/uk-england-london-55071099
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/world-asia-india-54930380
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/weather/features/55124296
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/55122863
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/world-australia-55118406
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/world-asia-55121825
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/world-asia-55121824
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/uk-england-beds-bucks-herts-55015596
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/3 and news url ishttps://bbc.com/news/world-asia-india-55082645
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/sport/live/cricket/55006038
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/news/world-55101833
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/news/world-asia-china-55113149
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/news/world-asia-india-54873285
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/news/world-asia-55060433
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/news/world-asia-55084944
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/news/stories-54546427
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/news/world-us-canada-55109163
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/news/world-australia-55081684
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/news/world-asia-55101831
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/news/world-asia-india-54930384
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/news/world-55089880
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/news/world-asia-india-55099485
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/news/world-asia-55097091
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/news/world-asia-china-55097424
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/news/world-asia-55097088
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/news/world-australia-55088230
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/4 and news url ishttps://bbc.com/news/business-55097100
+Crawled 16 pages (at 13 pages/min), scraped 9 items (at 9 items/min)
+website https://bbc.com/news/world-asia-55127590 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-55135616 is not valid
+website https://bbc.com/news/world-asia-55148231 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-55136494 is not valid
+website https://bbc.com/news/world-australia-55155160 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/news/business-55096998
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/news/world-asia-india-55013323
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/news/world-asia-55068007
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/news/world-asia-55077172
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/news/world-asia-55096092
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/news/world-asia-55086465
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/news/uk-55093302
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/news/world-asia-india-55091890
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/sport/live/cricket/55006035
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/news/world-asia-55086337
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/news/technology-55086226
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/weather/features/55073179
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/news/world-australia-55081682
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/news/world-middle-east-55086146
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/news/business-55058132
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/news/world-asia-india-55068379
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/news/world-asia-55083491
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/news/world-asia-55083091
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/5 and news url ishttps://bbc.com/sport/cricket/52854722
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-55121824 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-55121825 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/55122863 is not valid
+website https://bbc.com/news/world-asia-india-55099485 is not valid
+website https://bbc.com/news/world-55089880 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-55101831 is not valid
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/world-asia-india-55082404
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/business-55081812
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/world-asia-55082072
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/business-55081925
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/world-asia-india-55048925
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/entertainment-arts-55072897
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/world-middle-east-55077744
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/world-55069926
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/world-asia-55069038
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/world-asia-46339766
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/world-australia-55069037
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/world-asia-55068627
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/world-asia-india-55068372
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/business-55067595
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/world-asia-55067876
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/world-asia-china-55067700
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/business-55067716
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/6 and news url ishttps://bbc.com/news/world-asia-55062397
+Crawled 45 pages (at 29 pages/min), scraped 26 items (at 17 items/min)
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-55084944 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/world-middle-east-55086146 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/world-asia-55004196
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/business-55020945
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/technology-55053978
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/world-asia-55009241
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/uk-england-hampshire-55060403
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/world-asia-55053846
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/world-asia-china-55054258
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/world-asia-55048147
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/uk-england-cornwall-54506626
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/entertainment-arts-54913945
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/science-environment-55052575
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/science-environment-55049547
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/world-middle-east-55049678
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/world-australia-55048438
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/world-asia-china-55039627
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/world-australia-55040686
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/world-asia-55039535
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/business-55039662
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/world-australia-55039255
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/7 and news url ishttps://bbc.com/news/uk-scotland-scotland-politics-55039041
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-india-55091890 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-55096092 is not valid
+Crawled 70 pages (at 25 pages/min), scraped 46 items (at 20 items/min)
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/world-asia-china-55039622
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/world-asia-india-54986615
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/55021074
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/world-asia-55037852
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/world-australia-55035950
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/world-asia-china-55033875
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/uk-england-lincolnshire-55030948
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/world-55034537
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/world-australia-55033872
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/world-asia-india-54930379
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/world-asia-55013725
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/entertainment-arts-54967096
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/world-asia-55026991
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/world-asia-india-55027644
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/world-asia-55027311
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/world-asia-55027305
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/stories-55002773
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/news/uk-england-hampshire-55013242
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/8 and news url ishttps://bbc.com/sport/cricket/54337596
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-46339766 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-australia-55040686 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/9 and news url ishttps://bbc.com/news/world-australia-55011790
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/9 and news url ishttps://bbc.com/news/world-asia-india-55017421
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/9 and news url ishttps://bbc.com/news/world-asia-55016513
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/9 and news url ishttps://bbc.com/news/world-africa-55007232
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/9 and news url ishttps://bbc.com/news/business-55011945
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/9 and news url ishttps://bbc.com/news/entertainment-arts-54854273
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/9 and news url ishttps://bbc.com/news/world-asia-54961079
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/9 and news url ishttps://bbc.com/news/world-asia-india-54985981
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/9 and news url ishttps://bbc.com/news/uk-55007986
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/9 and news url ishttps://bbc.com/news/world-asia-china-34571946
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/9 and news url ishttps://bbc.com/news/world-asia-55009058
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/9 and news url ishttps://bbc.com/news/uk-england-tyne-55002189
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/9 and news url ishttps://bbc.com/news/uk-england-54997181
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/9 and news url ishttps://bbc.com/news/world-asia-china-54995227
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/9 and news url ishttps://bbc.com/sport/cricket/55002743
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/9 and news url ishttps://bbc.com/news/world-australia-54996581
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/9 and news url ishttps://bbc.com/news/world-australia-54996588
+news_item['title']was submitted
+news_item['title']was submitted
+Crawled 94 pages (at 24 pages/min), scraped 66 items (at 20 items/min)
+website https://bbc.com/news/science-environment-55052575 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/stories-55002773 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-55027311 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/news/business-54997796
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/news/business-54997193
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/news/world-asia-54997483
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/news/world-asia-54997111
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/news/world-asia-54956219
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/sport/rugby-league/54986182
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/news/world-australia-54970253
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/news/world-australia-54983104
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/news/uk-england-london-54986151
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/news/world-asia-india-54985831
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/news/world-us-canada-54980141
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/news/world-asia-china-54982910
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/news/uk-england-devon-54979375
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/news/world-asia-54983393
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/news/business-54983397
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/news/world-asia-india-54973452
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/news/entertainment-arts-54904756
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/sport/cricket/54976262
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/10 and news url ishttps://bbc.com/news/world-australia-54970242
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-55034537 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-australia-54996588 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-55009058 is not valid
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/world-asia-54971409
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/world-asia-54972852
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/world-asia-54976112
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/uk-england-suffolk-54974774
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/world-asia-china-54971215
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/world-australia-54972101
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/world-asia-india-54941867
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/world-asia-china-54961075
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/world-asia-54970003
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/world-asia-china-54969685
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/world-asia-china-54969682
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/business-54958299
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/world-asia-54955866
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/world-asia-54960346
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/world-us-canada-54968200
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/world-europe-54964267
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/world-asia-china-54960198
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/world-asia-china-54957211
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/11 and news url ishttps://bbc.com/news/world-asia-china-54951599
+Crawled 124 pages (at 30 pages/min), scraped 87 items (at 21 items/min)
+website https://bbc.com/news/world-asia-china-34571946 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-africa-55007232 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/world-australia-54970242 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/world-asia-54957834
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/world-australia-54954923
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/world-asia-54949260
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/world-asia-54956149
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/business-54955484
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/world-asia-india-54887233
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/world-asia-54942843
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/world-asia-india-54500364
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/world-asia-india-54655949
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/world-asia-54944700
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/world-asia-54944963
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/uk-scotland-54947017
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/world-asia-54944961
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/uk-wales-54932967
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/uk-northern-ireland-54918748
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/world-asia-india-54934884
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/uk-england-leicestershire-54833409
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/world-asia-54934883
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/world-asia-54901073
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/12 and news url ishttps://bbc.com/news/world-asia-india-54927691
+website https://bbc.com/news/uk-england-devon-54979375 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-china-54951599 is not valid
+website https://bbc.com/news/world-asia-china-54957211 is not valid
+Crawled 148 pages (at 24 pages/min), scraped 105 items (at 18 items/min)
+website https://bbc.com/news/world-asia-china-54960198 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/uk-wales-54938023
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/world-asia-54934377
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/technology-54936886
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/world-asia-54934376
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/world-asia-54934373
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/uk-northern-ireland-54928478
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/in-pictures-54903538
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/uk-54927053
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/election-us-2020-54871890
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/world-asia-54899170
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/business-54899254
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/business-54654813
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/election-us-2020-54719577
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/world-asia-india-54887231
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/world-asia-54921606
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/technology-54926759
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/business-54926102
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/world-asia-china-54923837
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/13 and news url ishttps://bbc.com/news/science-environment-54923456
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54934883 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-india-54934884 is not valid
+website https://bbc.com/news/uk-scotland-54947017 is not valid
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/news/world-asia-china-54918309
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/news/world-asia-54894828
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/sport/olympics/54920403
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/news/world-asia-china-54900174
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/news/world-asia-54914768
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/news/uk-england-london-54914553
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/news/business-54876528
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/sport/cricket/54914315
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/news/world-asia-china-54913367
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/news/world-asia-india-54912871
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/news/world-australia-54912722
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/news/world-australia-54912720
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/news/entertainment-arts-54872166
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/news/world-asia-54798452
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/news/world-latin-america-54908537
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/news/world-asia-china-54908367
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/news/world-asia-china-54901503
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/news/world-asia-china-54908368
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/14 and news url ishttps://bbc.com/news/world-asia-china-54899171
+Crawled 171 pages (at 23 pages/min), scraped 121 items (at 16 items/min)
+website https://bbc.com/news/world-asia-54944700 is not valid
+website https://bbc.com/news/world-asia-india-54655949 is not valid
+website https://bbc.com/news/world-asia-india-54887233 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/science-environment-54923456 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-china-54923837 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-india-54887231 is not valid
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/news/world-asia-54902618
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/news/world-asia-china-54903300
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/news/uk-scotland-north-east-orkney-shetland-54886394
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/sport/rugby-league/54902248
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/news/technology-54902038
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/news/world-asia-india-54865071
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/news/uk-england-london-54815989
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/news/world-asia-india-54876812
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/news/business-54898357
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/news/world-asia-china-54898680
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/news/world-australia-54889528
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/news/world-australia-54897937
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/news/world-asia-india-54883737
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/news/science-environment-54894681
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/news/world-asia-china-54291296
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/news/world-asia-china-54883383
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/sport/cricket/54340700
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/15 and news url ishttps://bbc.com/news/world-us-canada-54888544
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-china-54908368 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-china-54901503 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-china-54908367 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/business-54876524
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/world-australia-54882214
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/business-54883132
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/entertainment-arts-54847403
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/world-asia-india-54869565
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/uk-northern-ireland-54874541
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/world-australia-54835210
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/technology-54872965
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/world-asia-india-54806022
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/business-54868729
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/uk-54858424
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/world-asia-india-54550336
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/stories-54829594
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/world-asia-china-54718434
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/world-asia-54820946
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/world-asia-54865586
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/world-asia-54864960
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/world-asia-54849455
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/16 and news url ishttps://bbc.com/news/business-54838713
+Crawled 204 pages (at 33 pages/min), scraped 144 items (at 23 items/min)
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-us-canada-54888544 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/world-asia-54822739
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/world-asia-54840977
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/world-asia-india-54806021
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/election-us-2020-54801409
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/world-asia-54855178
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/world-asia-india-54834236
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/world-asia-china-54852131
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/uk-54779286
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/world-asia-54836809
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/world-asia-india-54718170
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/uk-wales-54841497
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/world-asia-54838305
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/uk-england-devon-54827592
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/world-asia-pacific-11685977
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/world-asia-china-54835955
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/business-54820652
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/entertainment-arts-54808925
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/17 and news url ishttps://bbc.com/news/world-asia-india-54792287
+news_item['title']was submitted
+Crawled 222 pages (at 18 pages/min), scraped 160 items (at 16 items/min)
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54864960 is not valid
+website https://bbc.com/news/stories-54829594 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/18 and news url ishttps://bbc.com/news/world-asia-54820494
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/18 and news url ishttps://bbc.com/news/world-asia-china-54822783
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/18 and news url ishttps://bbc.com/news/business-54820984
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/18 and news url ishttps://bbc.com/news/business-54819898
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/18 and news url ishttps://bbc.com/news/world-australia-54819803
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/18 and news url ishttps://bbc.com/news/world-asia-54718437
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/18 and news url ishttps://bbc.com/news/uk-england-london-54799673
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/18 and news url ishttps://bbc.com/news/technology-54809226
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/18 and news url ishttps://bbc.com/sport/triathlon/54808578
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/18 and news url ishttps://bbc.com/news/world-asia-india-54806099
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/18 and news url ishttps://bbc.com/sport/rugby-league/54808579
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/18 and news url ishttps://bbc.com/news/world-asia-54805368
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/18 and news url ishttps://bbc.com/news/world-asia-54805138
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/18 and news url ishttps://bbc.com/news/business-54798278
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/18 and news url ishttps://bbc.com/news/world-australia-54803700
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/18 and news url ishttps://bbc.com/news/world-asia-india-54719286
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/18 and news url ishttps://bbc.com/sport/golf/54795305
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/uk-england-devon-54827592 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-india-54718170 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-china-54852131 is not valid
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/news/world-asia-54786110
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/news/technology-54792187
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/sport/hockey/54782447
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/news/world-asia-54789714
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/sport/cricket/54791895
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/news/world-asia-54790569
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/news/business-54776402
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/news/world-asia-india-54729074
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/news/world-australia-54786796
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/news/world-asia-54775719
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/news/business-54776376
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/news/world-asia-54750839
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/news/entertainment-arts-54783116
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/news/world-asia-54777078
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/news/world-asia-india-54776255
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/news/world-asia-54775430
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/news/world-australia-54775199
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/19 and news url ishttps://bbc.com/news/world-asia-54776305
+Crawled 256 pages (at 34 pages/min), scraped 186 items (at 26 items/min)
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/news/business-54746206
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/news/world-asia-54629439
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/news/world-asia-india-54730290
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/news/world-asia-54754567
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/news/world-australia-54773542
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/sport/olympics/54773980
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/news/world-asia-54759868
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/news/world-asia-54769825
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/news/world-asia-54770522
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/news/world-asia-china-54768209
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/sport/cricket/54768094
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/news/world-australia-54768038
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/news/world-asia-india-54721990
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/news/world-asia-54734067
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/news/world-us-canada-54756044
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/news/world-asia-india-54759863
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/news/world-asia-54097609
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/news/world-asia-india-54655948
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/20 and news url ishttps://bbc.com/news/world-asia-54717686
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54776305 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+Crawled 280 pages (at 24 pages/min), scraped 209 items (at 23 items/min)
+website https://bbc.com/news/world-asia-54777078 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-australia-54786796 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54790569 is not valid
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/business-54746208
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/business-54658147
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/election-us-2020-54743180
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/election-us-2020-54746989
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/world-asia-54747504
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/business-54549612
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/world-asia-54743789
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/business-54654805
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/world-australia-54742909
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/world-asia-54728717
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/business-54728729
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/world-asia-54730487
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/world-asia-india-54688795
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/world-europe-54737668
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/54728955
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/world-asia-54732525
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/world-asia-54732082
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/world-asia-china-54729054
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/21 and news url ishttps://bbc.com/news/world-asia-india-53609404
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54734067 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/world-australia-54728348
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/business-54728298
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/world-asia-54711452
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/world-asia-54701279
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/world-us-canada-39732845
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/world-us-canada-54724471
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/uk-england-essex-54721141
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/science-environment-54714692
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/world-asia-54720589
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/world-asia-54570613
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/world-asia-54716077
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/world-australia-54716546
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/world-australia-54717051
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/world-asia-india-54715995
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/world-asia-54715327
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/world-asia-54706635
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/world-australia-54714472
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/world-asia-54697454
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/world-asia-india-54687892
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/22 and news url ishttps://bbc.com/news/world-asia-54655277
+Crawled 308 pages (at 28 pages/min), scraped 229 items (at 20 items/min)
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54770522 is not valid
+website https://bbc.com/news/world-asia-54769825 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54754567 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/54728955 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/sport/av/snooker/54692709
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/news/uk-england-essex-54711128
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/news/world-asia-54704859
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/sport/netball/54645626
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/news/world-asia-india-54655947
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/sport/athletics/54703979
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/news/world-asia-54701239
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/news/world-asia-54701753
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/news/world-australia-54700074
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/news/business-54692537
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/news/stories-54695598
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/news/business-54628433
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/news/world-asia-india-54658007
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/news/world-australia-54654646
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/news/world-asia-54694964
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/news/world-asia-54692488
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/news/world-middle-east-54682565
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/news/world-asia-54689283
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/23 and news url ishttps://bbc.com/news/business-54687147
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+Crawled 335 pages (at 27 pages/min), scraped 253 items (at 24 items/min)
+website https://bbc.com/news/world-australia-54717051 is not valid
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/world-australia-54686812
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/world-asia-china-54687533
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/world-asia-china-54626091
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/world-asia-india-54640998
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/world-asia-54668829
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/business-54615937
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/world-australia-54681423
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/world-asia-india-54641333
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/business-54429714
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/world-asia-54676319
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/world-asia-54675173
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/world-asia-india-54610762
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/election-us-2020-54541907
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/world-asia-54668828
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/world-asia-india-54660858
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/uk-england-hereford-worcester-54658929
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/world-asia-54658379
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/world-asia-china-54655285
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/world-asia-54070281
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/24 and news url ishttps://bbc.com/news/world-41574758
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54570613 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54720589 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/world-asia-india-54656881
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/world-asia-india-54657433
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/world-asia-54655692
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/world-asia-54655278
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/world-us-canada-54654918
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/business-54654806
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/world-australia-54654645
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/uk-england-bristol-54445409
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/world-asia-54649302
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/business-54597256
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/technology-54644999
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/technology-54642870
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/world-asia-54597862
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/world-asia-54641775
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/uk-england-london-54642857
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/world-asia-54641117
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/world-asia-54641076
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/world-asia-india-54630863
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/world-australia-54640306
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/25 and news url ishttps://bbc.com/news/business-54626025
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+Crawled 360 pages (at 25 pages/min), scraped 273 items (at 20 items/min)
+website https://bbc.com/news/world-41574758 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54668828 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/world-54620048
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/world-asia-54626271
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/54626043
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/world-asia-india-54617077
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/world-latin-america-54619730
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/world-asia-54627270
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/uk-england-london-54629770
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/business-54625422
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/world-asia-india-54615353
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/business-54625997
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/world-asia-india-54610763
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/world-asia-india-54553202
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/business-54597255
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/world-asia-54619728
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/uk-england-essex-54619091
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/sport/formula1/54618768
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/world-asia-54615756
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/world-asia-54600781
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/world-asia-54616378
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/26 and news url ishttps://bbc.com/news/world-asia-54612473
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-australia-54681423 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-india-54630863 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/news/world-asia-india-54596245
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/news/world-australia-54534747
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/news/election-us-2020-54522988
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/news/technology-54600098
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/news/health-54483953
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/news/world-asia-54605976
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/news/entertainment-arts-54514574
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/news/world-asia-pacific-15357770
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/sport/cricket/54594498
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/news/world-54600462
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/news/world-asia-54598956
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/news/world-asia-china-54596717
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/news/world-asia-india-54596707
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/news/business-54596893
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/news/world-australia-54595050
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/news/business-54594877
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/news/business-54594873
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/27 and news url ishttps://bbc.com/news/stories-54567742
+Crawled 389 pages (at 29 pages/min), scraped 294 items (at 21 items/min)
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-us-canada-54654918 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54616378 is not valid
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-india-54565693
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-australia-54592122
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-54589966
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-india-54528868
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-54573831
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-54568514
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-china-54586406
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-54519628
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-china-54586136
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-54581830
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-54443119
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-54583249
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-54583248
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-54582346
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-54565381
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-54582567
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-china-54582150
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-india-54565884
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-us-canada-54577971
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/28 and news url ishttps://bbc.com/news/world-asia-54573349
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/stories-54567742 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+Crawled 416 pages (at 27 pages/min), scraped 319 items (at 25 items/min)
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-54600462 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/health-54483953 is not valid
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/world-asia-54569110
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/world-asia-india-54566167
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/world-asia-54566978
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/business-54554860
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/world-asia-54566767
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/sport/formula1/54566243
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/world-asia-india-53747464
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/business-54564945
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/world-australia-54564432
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/world-asia-india-54464189
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/uk-scotland-54560228
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/world-asia-54553176
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/world-asia-54560671
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/world-asia-54536888
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/sport/54562195
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/world-asia-india-54560058
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/world-asia-54548988
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/science-environment-54557877
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/world-asia-54542252
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/29 and news url ishttps://bbc.com/news/world-asia-54553173
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-china-54582150 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54582567 is not valid
+website https://bbc.com/news/world-asia-54583249 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-china-54586136 is not valid
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/news/business-54534194
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/news/world-asia-54550896
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/news/world-australia-54549955
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/news/business-54549609
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/news/world-asia-54549861
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/news/world-asia-54538508
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/news/world-asia-54538679
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/news/world-australia-54112992
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/news/54535501
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/news/business-54350428
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/news/world-asia-54534474
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/sport/cricket/54537710
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/sport/cricket/54538931
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/news/world-asia-india-54536278
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/sport/football/54535478
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/news/world-asia-54519788
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/news/world-asia-india-54534500
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/30 and news url ishttps://bbc.com/sport/athletics/54523829
+Crawled 441 pages (at 25 pages/min), scraped 334 items (at 15 items/min)
+website https://bbc.com/news/world-asia-china-54586406 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54568514 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54536888 is not valid
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/31 and news url ishttps://bbc.com/news/world-asia-india-54370495
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/31 and news url ishttps://bbc.com/news/world-australia-54533971
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/31 and news url ishttps://bbc.com/news/world-asia-54529960
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/31 and news url ishttps://bbc.com/news/world-asia-54522304
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/31 and news url ishttps://bbc.com/news/world-asia-54444643
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/31 and news url ishttps://bbc.com/news/business-54522845
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/31 and news url ishttps://bbc.com/news/business-54522844
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/31 and news url ishttps://bbc.com/news/technology-54526515
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/31 and news url ishttps://bbc.com/news/world-asia-india-54520390
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/31 and news url ishttps://bbc.com/news/business-54519326
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/31 and news url ishttps://bbc.com/news/world-australia-54518418
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/31 and news url ishttps://bbc.com/news/world-asia-54520032
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/31 and news url ishttps://bbc.com/news/business-54519322
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/31 and news url ishttps://bbc.com/news/world-latin-america-54518628
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/31 and news url ishttps://bbc.com/news/world-asia-54513408
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/31 and news url ishttps://bbc.com/news/world-asia-india-54490554
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54560671 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-india-54536278 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+Crawled 473 pages (at 32 pages/min), scraped 360 items (at 26 items/min)
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/world-asia-india-54513409
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/world-australia-54505525
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/world-asia-54480233
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/world-asia-india-54505643
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/world-asia-41174689
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/uk-england-london-54505745
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/world-australia-54503968
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/world-54482905
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/world-asia-54504785
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/world-asia-54497497
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/world-asia-india-54462963
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/business-54478120
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/health-54500673
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/world-australia-54458638
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/world-asia-54500550
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/world-australia-54499478
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/world-asia-54464581
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/world-asia-india-54497946
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/32 and news url ishttps://bbc.com/news/world-asia-54486121
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/54535501 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54520032 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/world-asia-54493185
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/world-asia-54491657
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/world-asia-54491827
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/sport/rugby-league/54491097
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/world-asia-india-54444939
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/world-asia-54481063
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/uk-england-essex-54479154
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/uk-england-coventry-warwickshire-54481155
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/world-asia-54470548
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/world-asia-54474268
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/world-asia-india-54473976
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/world-asia-54474168
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/world-asia-54473407
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/world-asia-54470378
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/world-australia-54473086
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/business-54459380
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/business-54460191
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/world-asia-india-54464451
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/business-54473334
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/33 and news url ishttps://bbc.com/news/world-asia-54459248
+website https://bbc.com/news/world-asia-54529960 is not valid
+Crawled 489 pages (at 16 pages/min), scraped 373 items (at 13 items/min)
+website https://bbc.com/news/world-asia-india-54370495 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54486121 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-india-54497946 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/business-54478120 is not valid
+website https://bbc.com/news/world-asia-india-54462963 is not valid
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/uk-england-leeds-54470312
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/technology-54468207
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/uk-england-essex-54462248
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/world-asia-india-54464720
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/world-asia-china-54459247
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/world-asia-54460090
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/sport/athletics/54460521
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/world-australia-54459611
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/world-australia-54458637
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/world-asia-54458948
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/technology-54455112
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/world-asia-india-54444933
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/entertainment-arts-54452669
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/world-asia-54452851
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/sport/olympics/54453422
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/world-asia-54451618
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/world-asia-41934037
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/world-asia-54432037
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/uk-scotland-edinburgh-east-fife-54448253
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/34 and news url ishttps://bbc.com/news/world-asia-16186907
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/business-54473334 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54474168 is not valid
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/35 and news url ishttps://bbc.com/sport/cricket/54445096
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/35 and news url ishttps://bbc.com/news/world-asia-india-54370490
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/35 and news url ishttps://bbc.com/news/world-asia-54293289
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/35 and news url ishttps://bbc.com/news/world-asia-india-54275986
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/35 and news url ishttps://bbc.com/news/world-asia-54437263
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/35 and news url ishttps://bbc.com/news/election-us-2020-54304589
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/35 and news url ishttps://bbc.com/news/election-us-2020-54405737
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/35 and news url ishttps://bbc.com/news/uk-politics-54441143
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/35 and news url ishttps://bbc.com/news/uk-politics-54439606
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/35 and news url ishttps://bbc.com/news/world-asia-54431615
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/35 and news url ishttps://bbc.com/news/world-asia-54435435
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/35 and news url ishttps://bbc.com/news/world-asia-54432030
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/35 and news url ishttps://bbc.com/news/uk-england-essex-54435275
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/35 and news url ishttps://bbc.com/news/world-asia-54431729
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/35 and news url ishttps://bbc.com/news/world-asia-india-54419959
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/35 and news url ishttps://bbc.com/news/world-asia-54422884
+Crawled 522 pages (at 33 pages/min), scraped 395 items (at 22 items/min)
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54470548 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-41934037 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/world-us-canada-54430116
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/world-australia-54430357
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/business-54416428
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/business-54429706
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/world-asia-india-54418513
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/world-asia-54144623
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/world-asia-54425964
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/business-54299108
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/world-australia-54417343
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/world-asia-54410063
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/business-54414201
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/election-us-2020-54293489
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/world-asia-india-54338864
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/uk-england-cumbria-54370256
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/world-asia-india-54164507
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/weather/features/54401640
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/health-54390549
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/world-asia-india-54352222
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/36 and news url ishttps://bbc.com/news/uk-54374114
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-australia-54459611 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+Crawled 547 pages (at 25 pages/min), scraped 418 items (at 23 items/min)
+website https://bbc.com/news/world-asia-54435435 is not valid
+website https://bbc.com/news/uk-politics-54439606 is not valid
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/news/world-australia-54383750
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/news/world-asia-india-54368087
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/news/uk-england-london-54386722
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/news/world-asia-india-54370087
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/sport/rugby-league/54383355
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/news/world-australia-54381811
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/news/world-asia-china-54382112
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/news/world-asia-china-54380148
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/news/world-australia-54381808
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/news/world-asia-54375436
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/news/business-54379914
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/news/world-asia-india-54380046
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/news/uk-england-london-54360535
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/news/world-asia-china-54377722
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/weather/features/54378263
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/news/technology-54370574
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/sport/boxing/54372070
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/news/world-asia-india-54351157
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/37 and news url ishttps://bbc.com/news/world-australia-54366646
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54437263 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/world-asia-54366806
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/world-asia-china-54354127
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/world-asia-india-54356713
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/technology-54339973
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/world-54348426
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/world-europe-54361716
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/world-europe-54349630
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/world-asia-india-54318515
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/world-asia-54351744
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/world-australia-54350248
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/world-asia-china-54350842
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/world-australia-54350247
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/science-environment-54347878
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/world-australia-54322760
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/disability-54188218
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/world-54337098
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/world-asia-india-54277329
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/world-asia-54335789
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/38 and news url ishttps://bbc.com/news/world-asia-42980461
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+Crawled 569 pages (at 22 pages/min), scraped 435 items (at 17 items/min)
+news_item['title']was submitted
+website https://bbc.com/news/business-54299108 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54425964 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-india-54380046 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/business-54379914 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/39 and news url ishttps://bbc.com/news/world-asia-india-54335895
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/39 and news url ishttps://bbc.com/news/world-asia-54336194
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/39 and news url ishttps://bbc.com/news/world-asia-china-54335841
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/39 and news url ishttps://bbc.com/news/world-australia-54334897
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/39 and news url ishttps://bbc.com/news/business-54334876
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/39 and news url ishttps://bbc.com/news/world-asia-china-54321598
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/39 and news url ishttps://bbc.com/news/world-asia-china-54294193
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/39 and news url ishttps://bbc.com/news/world-asia-india-54321714
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/39 and news url ishttps://bbc.com/news/world-asia-54235728
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/39 and news url ishttps://bbc.com/news/world-asia-54325524
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/39 and news url ishttps://bbc.com/news/uk-england-london-54326207
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/39 and news url ishttps://bbc.com/news/technology-54324973
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/39 and news url ishttps://bbc.com/news/world-asia-34729538
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/39 and news url ishttps://bbc.com/sport/cricket/54293925
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/39 and news url ishttps://bbc.com/news/world-asia-china-48646472
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/39 and news url ishttps://bbc.com/news/world-australia-54321389
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-42980461 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/world-australia-54322760 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+Crawled 602 pages (at 33 pages/min), scraped 461 items (at 26 items/min)
+website https://bbc.com/news/world-54348426 is not valid
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/world-asia-china-19870221
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/technology-54316992
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/world-us-canada-54270739
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/world-asia-india-54261125
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/uk-54314778
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/uk-england-london-54317347
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/world-asia-54314962
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/uk-54306029
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/uk-england-berkshire-54249504
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/world-asia-india-54261127
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/world-asia-india-54232634
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/world-australia-54307815
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/world-asia-54275891
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/world-asia-india-54277326
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/sport/boxing/54303924
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/business-54266602
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/world-asia-54291550
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/uk-54279802
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/technology-54296465
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/40 and news url ishttps://bbc.com/news/world-australia-54294247
+website https://bbc.com/news/world-asia-china-54354127 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54235728 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-china-54294193 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/news/health-51048366
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/news/business-54290245
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/sport/cricket/54293922
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/news/world-asia-india-53789574
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/news/world-asia-india-54277325
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/news/world-australia-54290183
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/news/world-australia-54291152
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/news/world-asia-16440290
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/news/world-54284952
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/news/world-asia-54269047
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/news/world-asia-china-54269046
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/news/world-asia-india-54261121
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/news/business-54261382
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/news/world-asia-china-54277439
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/news/world-asia-54284355
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/news/uk-england-shropshire-54283074
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/news/uk-england-derbyshire-54273999
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/news/world-australia-54275771
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/41 and news url ishttps://bbc.com/sport/football/54279204
+news_item['title']was submitted
+news_item['title']was submitted
+Crawled 626 pages (at 24 pages/min), scraped 479 items (at 18 items/min)
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-india-54277326 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-india-54261127 is not valid
+website https://bbc.com/news/uk-england-berkshire-54249504 is not valid
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/42 and news url ishttps://bbc.com/news/technology-54279229
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/42 and news url ishttps://bbc.com/sport/cricket/54281214
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/42 and news url ishttps://bbc.com/sport/olympics/54276608
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/42 and news url ishttps://bbc.com/news/world-asia-54275649
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/42 and news url ishttps://bbc.com/news/world-asia-china-54277430
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/42 and news url ishttps://bbc.com/news/business-54276902
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/42 and news url ishttps://bbc.com/news/world-australia-54275166
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/42 and news url ishttps://bbc.com/news/world-asia-india-54276129
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/42 and news url ishttps://bbc.com/news/world-australia-54275771
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/42 and news url ishttps://bbc.com/news/business-54260917
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/42 and news url ishttps://bbc.com/news/world-australia-54275165
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/42 and news url ishttps://bbc.com/news/world-asia-china-54241734
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/42 and news url ishttps://bbc.com/sport/football/54233946
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/42 and news url ishttps://bbc.com/sport/football/54273773
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/42 and news url ishttps://bbc.com/news/world-asia-54260925
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/42 and news url ishttps://bbc.com/sport/av/football/54269014
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/42 and news url ishttps://bbc.com/news/technology-54263798
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-china-54269046 is not valid
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/43 and news url ishttps://bbc.com/news/world-australia-54260278
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/43 and news url ishttps://bbc.com/news/technology-54266531
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/43 and news url ishttps://bbc.com/news/world-australia-54263934
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/43 and news url ishttps://bbc.com/news/world-asia-china-54260732
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/43 and news url ishttps://bbc.com/news/world-asia-india-54233080
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/43 and news url ishttps://bbc.com/news/world-asia-india-54098791
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/43 and news url ishttps://bbc.com/news/world-asia-54174598
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/43 and news url ishttps://bbc.com/news/world-asia-54255862
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/43 and news url ishttps://bbc.com/news/entertainment-arts-54179877
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/43 and news url ishttps://bbc.com/news/science-environment-54256826
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/43 and news url ishttps://bbc.com/news/world-us-canada-54244011
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/43 and news url ishttps://bbc.com/news/world-54253408
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/43 and news url ishttps://bbc.com/news/world-54251118
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/43 and news url ishttps://bbc.com/news/world-australia-54250456
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/43 and news url ishttps://bbc.com/news/world-asia-54250075
+Crawled 657 pages (at 31 pages/min), scraped 503 items (at 24 items/min)
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54269047 is not valid
+website https://bbc.com/sport/av/football/54269014 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/world-australia-54291152 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/uk-scotland-north-east-orkney-shetland-54236333
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/world-asia-china-54245327
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/world-australia-54244499
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/world-us-canada-54244018
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/technology-54233234
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/uk-scotland-highlands-islands-54239712
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/world-asia-54239110
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/business-54230733
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/uk-scotland-highlands-islands-46522001
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/world-54236256
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/world-asia-india-54234621
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/world-asia-india-54231011
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/world-asia-54231773
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/technology-54168429
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/world-australia-54230578
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/world-asia-54230528
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/world-us-canada-54223980
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/uk-54225572
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/44 and news url ishttps://bbc.com/news/world-australia-54223977
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+Crawled 681 pages (at 24 pages/min), scraped 524 items (at 21 items/min)
+website https://bbc.com/news/world-54251118 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/world-asia-54222524
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/uk-england-leicestershire-54018340
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/world-asia-india-53944723
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/uk-54213041
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/world-asia-54206824
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/world-asia-54217284
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/world-asia-54219372
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/world-asia-54216632
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/world-asia-india-54189052
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/world-asia-54186609
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/uk-54208024
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/technology-54205231
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/world-australia-54204046
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/world-asia-54018913
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/world-asia-54200913
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/world-asia-54200833
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/world-asia-india-54200774
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/business-54186810
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/world-asia-india-54186709
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/45 and news url ishttps://bbc.com/news/world-asia-54082861
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-india-54098791 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/technology-54168429 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/news/world-australia-54199816
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/news/business-54197620
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/news/world-asia-china-54195325
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/news/world-australia-54193764
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/sport/football/54192237
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/sport/cricket/54189883
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/news/business-54186359
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/news/world-asia-india-54187983
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/news/world-asia-52743072
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/news/world-asia-india-54176375
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/news/world-asia-54182002
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/news/world-australia-54173968
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/news/science-environment-54165868
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/news/uk-england-london-54180648
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/sport/cricket/54171521
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/news/technology-54182769
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/news/business-54176157
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/news/world-asia-pacific-14918801
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/46 and news url ishttps://bbc.com/news/world-asia-54143029
+Crawled 710 pages (at 29 pages/min), scraped 547 items (at 23 items/min)
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/business-54172703
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/world-asia-india-54172321
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/world-asia-54172722
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/world-asia-54172461
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/world-asia-india-54163109
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/uk-wales-54158091
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/world-asia-china-54158791
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/business-54168419
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/world-asia-pacific-54158627
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/business-54155809
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/uk-england-essex-54149657
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/newsround/54158603
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/world-asia-pacific-54157459
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/world-asia-china-54157254
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/business-54157000
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/world-australia-54146225
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/business-54156997
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/world-asia-india-54139112
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/world-asia-china-54156037
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/47 and news url ishttps://bbc.com/news/world-asia-54155768
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54219372 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54206824 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/science-environment-54165868 is not valid
+website https://bbc.com/news/world-australia-54173968 is not valid
+Crawled 739 pages (at 29 pages/min), scraped 572 items (at 25 items/min)
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/world-asia-54155769
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/technology-54148684
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/world-asia-54090407
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/technology-54148474
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/business-54143015
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/world-asia-india-54143619
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/sport/tennis/53936569
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/world-australia-54142985
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/world-54142502
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/world-asia-india-54053091
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/world-asia-china-54034809
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/world-australia-54139669
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/world-australia-54136615
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/world-asia-india-54065230
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/business-54080397
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/world-asia-54034810
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/world-asia-54134707
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/world-asia-53976968
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/48 and news url ishttps://bbc.com/news/world-asia-india-54132035
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-china-54156037 is not valid
+website https://bbc.com/news/world-asia-china-54157254 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-pacific-54158627 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/news/world-asia-india-54113621
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/news/world-australia-54121026
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/news/technology-54118519
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/news/business-54116606
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/news/world-europe-54116336
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/news/world-asia-india-54113777
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/news/world-australia-54112991
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/news/world-asia-54113306
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/news/world-54034806
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/news/world-asia-india-54098615
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/news/world-asia-china-54107329
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/news/entertainment-arts-54099888
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/sport/54112410
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/news/world-australia-54107251
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/news/technology-54104934
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/news/world-us-canada-54097437
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/news/world-europe-54094683
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/49 and news url ishttps://bbc.com/sport/cycling/54098523
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-china-54158791 is not valid
+Crawled 762 pages (at 23 pages/min), scraped 589 items (at 17 items/min)
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54034810 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-china-54034809 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/world-asia-53062484
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/world-australia-54097500
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/business-54097514
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/world-asia-india-54085830
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/world-asia-54084848
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/world-europe-54082201
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/technology-54092119
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/uk-england-derbyshire-54088476
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/entertainment-arts-54085249
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/world-asia-india-54070232
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/science-environment-54076895
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/business-54075614
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/world-asia-54084841
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/world-asia-india-54085183
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/world-australia-54083583
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/business-54067492
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/world-australia-54082545
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/world-asia-india-54068007
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/world-asia-54068937
+now in pagehttps://www.bbc.com/news/live/world-asia-47639453/page/50 and news url ishttps://bbc.com/news/world-asia-china-54070709
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-54034806 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-india-54113777 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54068937 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+Crawled 808 pages (at 46 pages/min), scraped 629 items (at 40 items/min)
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54155769 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-india-54368087 is not valid
+website https://bbc.com/news/world-australia-54383750 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-india-54464720 is not valid
+news_item['title']was submitted
+Crawled 853 pages (at 45 pages/min), scraped 670 items (at 41 items/min)
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54491827 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54550896 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/business-54554860 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54569110 is not valid
+website https://bbc.com/news/world-asia-india-54565693 is not valid
+website https://bbc.com/news/world-australia-54534747 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/54626043 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-54620048 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54668829 is not valid
+news_item['title']was submitted
+website https://bbc.com/sport/av/snooker/54692709 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+Crawled 897 pages (at 44 pages/min), scraped 704 items (at 34 items/min)
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/election-us-2020-54743180 is not valid
+website https://bbc.com/news/business-54746208 is not valid
+website https://bbc.com/news/business-54746206 is not valid
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54822739 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-china-54903300 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54934376 is not valid
+website https://bbc.com/news/uk-wales-54938023 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54957834 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-54972852 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-india-55017421 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-55037852 is not valid
+Crawled 941 pages (at 44 pages/min), scraped 737 items (at 33 items/min)
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-55077172 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-india-55013323 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-55101833 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/entertainment-arts-55137074 is not valid
+website https://bbc.com/news/world-asia-55128827 is not valid
+news_item['title']was submitted
+news_item['title']was submitted
+news_item['title']was submitted
+website https://bbc.com/news/world-asia-india-43069122 is not valid
+Closing spider (finished)
+Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/scrapy.exceptions.IgnoreRequest': 1,
+ 'downloader/request_bytes': 646647,
+ 'downloader/request_count': 2128,
+ 'downloader/request_method_count/GET': 2128,
+ 'downloader/response_bytes': 91174164,
+ 'downloader/response_count': 2128,
+ 'downloader/response_status_count/200': 987,
+ 'downloader/response_status_count/301': 985,
+ 'downloader/response_status_count/302': 156,
+ 'dupefilter/filtered': 1,
+ 'elapsed_time_seconds': 2089.920016,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 12, 2, 16, 5, 12, 710629),
+ 'item_scraped_count': 777,
+ 'log_count/DEBUG': 2907,
+ 'log_count/INFO': 1916,
+ 'request_depth_max': 50,
+ 'response_received_count': 987,
+ 'robotstxt/forbidden': 1,
+ 'robotstxt/request_count': 2,
+ 'robotstxt/response_count': 2,
+ 'robotstxt/response_status_count/200': 2,
+ 'scheduler/dequeued': 2126,
+ 'scheduler/dequeued/memory': 2126,
+ 'scheduler/enqueued': 2126,
+ 'scheduler/enqueued/memory': 2126,
+ 'start_time': datetime.datetime(2020, 12, 2, 15, 30, 22, 790613)}
+Spider closed (finished)
